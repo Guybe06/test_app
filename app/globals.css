@@ -6,6 +6,8 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  color: inherit;
+  line-height: 1rem;
 }
 
 body {
@@ -19,6 +21,16 @@ body {
   width: 280px;
 }
 
+.navigation .navbar li button,
+  .navigation .navbar li a{
+  margin-bottom: 20px;
+}
+
 .navigation .navbar li.active {
-  border-right: 3px solid;
+  border-right: 4px solid #347AE2;
+  color: #347AE2;
+}
+
+.navigation .navbar li.active a {
+  color: #347AE2;
 }

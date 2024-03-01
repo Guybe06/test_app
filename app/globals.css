@@ -8,7 +8,17 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 
-.navbar {
-  width: ;
+.navigation {
+  /* width: ; */
+  width: 280px;
+}
+
+.navigation .navbar li.active {
+  border-right: 3px solid;
 }

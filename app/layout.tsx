@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import "./globals.css";
+import { Navigation } from "@/components/@layout/navigation";
 
 
 export const metadata: Metadata = {
@@ -15,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body>
+        <Navigation />
+        <main className="app">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }

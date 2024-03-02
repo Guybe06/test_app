@@ -25,7 +25,7 @@ export const BottomNav = () => {
                 <li className={`w-full mb-2 `}>
                     <Link href="#" className={`flex justify-between items-center w-full text-red-500`}>
                         <span className="flex items-center">
-                            <LogoutIcon color="#7C8DB5" />
+                            <LogoutIcon color="#FF3B30" />
                             <span className="ml-4">Log out</span>
                         </span>
                     </Link>

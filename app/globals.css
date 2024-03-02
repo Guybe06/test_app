@@ -28,6 +28,7 @@ ul li a,
   margin-bottom: 25px;
   padding: 2px 0;
   color: #7C8DB5;
+  transition: all .3s ease-in-out;
 }
 
 .navigation .navbar li.active {

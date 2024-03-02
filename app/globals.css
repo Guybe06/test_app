@@ -5,9 +5,9 @@
 @tailwind utilities;
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "poppins", sans-serif;
   color: inherit;
-  line-height: 1rem;
+  font-size: 16px;
 }
 
 body {
@@ -18,17 +18,24 @@ body {
 
 .navigation {
   /* width: ; */
-  width: 280px;
+  width: 288px;
+  padding-top: 40px;
 }
 
 .navigation .navbar li button,
+ul li a,
   .navigation .navbar li a{
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  padding: 2px 0;
+  color: #7C8DB5;
 }
 
 .navigation .navbar li.active {
-  border-right: 4px solid #347AE2;
+  /* border-right: 4px solid #347AE2; */
+  box-shadow: inset 226px 0 0 #fff;
+  border-radius: 4px 0 0 4px;
   color: #347AE2;
+  background: #347AE2;
 }
 
 .navigation .navbar li.active a {

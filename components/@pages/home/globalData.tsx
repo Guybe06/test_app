@@ -1,5 +1,5 @@
 import React, { FC, ReactNode } from "react";
-import { ArrowReverseIcon, CheckIcon, ProductIcon, UsersIcon } from "../@layout/icons";
+import { ArrowReverseIcon, CheckIcon, ProductIcon, UsersIcon } from "../../@layout/icons";
 
 export const GlobalData = () => {
   return (

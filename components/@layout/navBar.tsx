@@ -113,8 +113,8 @@ const NavItem = ({ item }: { item: MenuItem }) => {
     <li className={`w-full mb-4 ${item.href == pathname && "active"}`}>
       <Link
         href={item.href}
-        className={`relative flex justify-between app-color-gray text-sm items-center w-full ${
-          item.href == pathname && "active"
+        className={`relative flex justify-between text-sm items-center w-full ${
+          item.href == pathname ? "app-color-blue" : "app-color-gray "
         }`}
       >
         <span className="flex items-center">

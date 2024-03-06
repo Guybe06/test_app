@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { BellIcon, SearchIcon } from "../@layout/icons";
-import { TopBar } from "../@layout/head";
+import { BellIcon, SearchIcon } from "../../@layout/icons";
+import { TopBar } from "../../@layout/head";
 
 export const HomeHeader = () => {
   const [username, setUsername] = useState("Marci");

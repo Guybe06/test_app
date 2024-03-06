@@ -7,7 +7,7 @@
 * {
   font-family: "poppins", sans-serif;
   color: inherit;
-  font-size: 16px;
+  transition: all .3s ease-in-out;
 }
 
 body {
@@ -16,29 +16,25 @@ body {
   justify-content: flex-start;
 }
 
-.navigation {
-  /* width: ; */
-  width: 288px;
-  padding-top: 40px;
-}
-
-.navigation .navbar li button,
-ul li a,
-  .navigation .navbar li a{
-  margin-bottom: 25px;
-  padding: 2px 0;
-  color: #7C8DB5;
-  transition: all .3s ease-in-out;
-}
-
-.navigation .navbar li.active {
-  /* border-right: 4px solid #347AE2; */
-  box-shadow: inset 226px 0 0 #fff;
-  border-radius: 4px 0 0 4px;
+.app-color-blue {
   color: #347AE2;
+}
+
+.app-bg-blue {
   background: #347AE2;
 }
+.app-color-gray {
+  color: #7C8DB5;
+}
 
-.navigation .navbar li.active a {
-  color: #347AE2;
+.app-bg-gray {
+  background: #7C8DB5;
+}
+
+.app-border-color-gray {
+  border-color: #7C8DB5;
+}
+
+a svg, button svg {
+  width: 16px;
 }

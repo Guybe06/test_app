@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="fr">
       <body>
         <Navigation />
-        <main className="app">
+        <main className="app w-full">
           {children}
         </main>
       </body>
